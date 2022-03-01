@@ -48,9 +48,9 @@ https://expressjs.com/
 
 ## TABLE SCRIPT
 
--- Table: public.incidents
+Using PostgreSQL as DB.
 
--- DROP TABLE IF EXISTS public.incidents;
+DROP TABLE IF EXISTS public.incidents;
 
 CREATE TABLE IF NOT EXISTS public.incidents
 (
@@ -72,9 +72,7 @@ TABLESPACE pg_default;
 ALTER TABLE IF EXISTS public.incidents
     OWNER to postgres;
 
--- Table: public.incident_users
-
--- DROP TABLE IF EXISTS public.incident_users;
+DROP TABLE IF EXISTS public.incident_users;
 
 CREATE TABLE IF NOT EXISTS public.incident_users
 (
